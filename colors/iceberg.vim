@@ -229,6 +229,7 @@ hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
 hi! link rustFuncName Normal
+hi! link rustFuncCall Normal
 
 if has('nvim')
   let g:terminal_color_0 = '#1e2132'
