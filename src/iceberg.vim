@@ -672,7 +672,7 @@ function! s:create_context() abort
   call add(links, pgmnt#hi#link('typescriptParens', 'Normal'))
 
   " [rust.vim](https://github.com/rust-lang/rust.vim)
-  call add(links, pgmnt#hi#link('rustFuncName', 'Normal'))
+  call add(links, pgmnt#hi#link('rustFuncName', 'Title'))
   call add(links, pgmnt#hi#link('rustFuncCall', 'Normal'))
 
   " [zenspace.vim](https://github.com/thinca/vim-zenspace)

@@ -228,7 +228,7 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
-hi! link rustFuncName Normal
+hi! link rustFuncName Title
 hi! link rustFuncCall Normal
 
 if has('nvim')
